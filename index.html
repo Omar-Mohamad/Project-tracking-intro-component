@@ -18,12 +18,65 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    Product Features Pricing Login New Monograph Dashboard Powerful insights
-    into your team Project planning and time tracking for agile teams Schedule a
-    demo to see a live preview
+    <nav>
+      <div class="nav__logo">
+        <img class="nav__logoImg" src="images/logo.svg" alt="logo" />
+      </div>
 
+      <ul class="nav__links">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li id="last"><span id="circle"></span></li>
+        <li><a id="login" href="#">Login</a></li>
+      </ul>
+
+      <div class="nav__burger">
+        <img src="images/icon-hamburger.svg" alt="burger" id="burger" />
+
+        <img src="images/icon-close.svg" alt="close" id="close" />
+      </div>
+    </nav>
+
+    <section class="banner__container">
+      <div class="banner__bg">
+        <div class="banner__bgColor"></div>
+        <img id="bg" src="images/illustration-devices.svg" alt="bg" />
+      </div>
+
+      <div class="banner__text">
+        <h3>
+          <span> New </span>
+          Monograph Dashboard
+        </h3>
+
+        <h1>Powerful insights into your team</h1>
+
+        <p>Project planning and time tracking for agile teams</p>
+
+        <div class="banner__botttom">
+          <a href="#"> Schedule a demo </a>
+
+          <p>to see a live preview</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
     <footer>
       <p class="attribution">
         Challenge by
@@ -32,5 +85,10 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+
+     -->
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
   </body>
 </html>
