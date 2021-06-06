@@ -63,7 +63,6 @@ Nav
     background-color: white;
     box-shadow: -5px 12px 10px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in;
-    -webkit-transform: translate (115%, 0);
     transform: translate(115%, 0);
   }
 
@@ -100,7 +99,6 @@ Nav
   }
 
   .show .nav__links {
-    -webkit-transform: translate (0, 0);
     transform: translate (0, 0);
   }
 
